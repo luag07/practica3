@@ -3,10 +3,11 @@
 
 int main(void){
 
-    for (int i = 1000; i < 2000; i++){
-        printf("%i ", i);
-        if (i % 5 == 5);
+    for (int i = 1001; i < 2001; i++){
+        printf("%d ", i);
+        if (i % 5 == 0){
         printf("\n");
+        }
     }
 
     return 0;
